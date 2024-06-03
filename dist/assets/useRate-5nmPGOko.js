@@ -1,0 +1,1 @@
+import{be as s,r as i,t as f,i as m}from"./index-Dgqs041M.js";function b(){const{priceRateObj:t}=s();return{getRate:i.useCallback((a,r,u,n)=>{var o;if(!a)return"--";const e=(o=t==null?void 0:t[r==null?void 0:r.toLowerCase()])==null?void 0:o.price;if(!e)return"--";const c=f(a).mul(e).toString();return m(c,u??2,n)},[t])}}export{b as u};
