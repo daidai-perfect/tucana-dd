@@ -1,1 +1,0 @@
-import{O as e,j as r,I as s}from"./index-Dgqs041M.js";function i(n){const t=e(),{onClick:o}=n;return r.jsx(s,{xlinkHref:"#icon-icon_lead",cursor:"pointer",transform:"rotate(180deg)",onClick:()=>{o?o():t(-1)}})}export{i as B};
