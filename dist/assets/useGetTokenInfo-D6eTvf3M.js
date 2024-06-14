@@ -1,0 +1,1 @@
+import{bD as r,af as s}from"./index-BAe5U5I_.js";function c(){const{tokensObj:n}=r(),{getToken:t}=s();return{getTokenInfo:async o=>{if(n[o])return n[o];try{return await t(o)}catch(e){return console.log("useFetTokenInfo getTokenInfo Error: ",e),null}}}}export{c as u};

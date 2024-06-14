@@ -1,0 +1,1 @@
+import{cb as a,aM as i,cc as s}from"./index-BAe5U5I_.js";import{X as t,Y as r}from"./AreaChart-B2MXLoiw.js";var p=a({chartName:"BarChart",GraphicalChild:i,defaultTooltipEventType:"axis",validateTooltipEventTypes:["axis","item"],axisComponents:[{axisType:"xAxis",AxisComp:t},{axisType:"yAxis",AxisComp:r}],formatAxisMap:s});export{p as B};
