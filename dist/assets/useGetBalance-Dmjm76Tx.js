@@ -1,1 +1,0 @@
-import{bb as s,r as m,bc as u}from"./index-BYAy_kcu.js";function i(r){const{tokensBalanceObj:a}=s();return m.useMemo(()=>a&&(r!=null&&r.metadata)?u(a==null?void 0:a[r==null?void 0:r.metadata],r==null?void 0:r.decimals).toString():"0",[a,r])}export{i as u};

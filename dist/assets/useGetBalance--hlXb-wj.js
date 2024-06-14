@@ -1,0 +1,1 @@
+import{bD as s,r as m,bE as u}from"./index-BNs6X6_J.js";function c(r){const{tokensBalanceObj:a}=s();return m.useMemo(()=>a&&(r!=null&&r.metadata)?u(a==null?void 0:a[r==null?void 0:r.metadata],r==null?void 0:r.decimals).toString():"0",[a,r])}export{c as u};
