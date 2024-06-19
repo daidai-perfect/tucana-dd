@@ -1,0 +1,1 @@
+import{r as n}from"./react-CxzTU07i.js";function s(){const[e,i]=n.useState(window.innerWidth);n.useEffect(()=>{function t(){i(window.innerWidth)}return window.addEventListener("resize",t),()=>{window.removeEventListener("resize",t)}},[]);const r=n.useMemo(()=>e<810,[e]);return{windowWidth:e,isApp:r}}export{s as u};

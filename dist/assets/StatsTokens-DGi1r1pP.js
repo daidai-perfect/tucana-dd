@@ -1,1 +1,0 @@
-import{r as o,j as t,t as r}from"./index-CsZsZZ8H.js";import{T as s}from"./TopTokens-DuotUa8k.js";import"./BackButton-D5GWIKk9.js";import"./useStatsData-Jx03S2Q2.js";import"./TableCardH5-sv62sZ2G.js";function n(){return o.useEffect(()=>{window.scrollTo(0,0)},[]),t.jsx(r,{w:"100%",children:t.jsx(s,{isViewAll:!0})})}export{n as default};

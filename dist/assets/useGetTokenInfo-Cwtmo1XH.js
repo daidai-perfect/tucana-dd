@@ -1,0 +1,1 @@
+import{i as t}from"./App-Cb960mne.js";import{u as s}from"./useApiUrl-BWcjgV84.js";function f(){const{tokensObj:n}=t(),{getToken:r}=s();return{getTokenInfo:async o=>{if(n[o])return n[o];try{return await r(o)}catch(e){return console.log("useFetTokenInfo getTokenInfo Error: ",e),null}}}}export{f as u};

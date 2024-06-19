@@ -1,0 +1,1 @@
+import{j as n}from"./react-CxzTU07i.js";import{I as i}from"./App-Cb960mne.js";import{c as e}from"./react-router-COZMEyo_.js";function m(t){const r=e(),{onClick:o}=t;return n.jsx(i,{xlinkHref:"#icon-icon_lead",cursor:"pointer",transform:"rotate(180deg)",onClick:()=>{o?o():r(-1)}})}export{m as B};

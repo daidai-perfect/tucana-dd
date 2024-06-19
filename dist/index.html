@@ -2,13 +2,71 @@
 <html lang="en">
 	<head>
 		<meta charset="UTF-8" />
-		<link rel="icon" type="image/png" href="/favicon.png?t=202406141842"/>
-		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
 		<meta name="description" content="A modular network driven by Proof-of-Tradable-Value built for liquidity aggregation and derivative trading" />
+		<link rel="icon" type="image/png" href="/favicon.png?t=202406191702"/>
+    <link rel="preload" href="/fonts/NotoSansMono/NotoSansMono-Regular.ttf" as="font" type="font/ttf" crossorigin="anonymous">
 		<title>Tucana DEX</title>
-		<script type="module" crossorigin src="/assets/index-CsZsZZ8H.js"></script>
+		<style>
+			body {
+        background: #030712;
+			}
+      .spinner {
+        width: 256px;
+        height: 256px;
+        background: url('/images/loading.gif');
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        margin-left: -128px;
+        margin-top: -128px;
+      }
+      .spinner img {
+        width: 100%;
+        height: 100%;
+      }
+      @keyframes spin {
+        0% {
+          transform: rotate(0deg);
+        }
+        100% {
+          transform: rotate(360deg);
+        }
+      }
+    </style>
+		<script type="module" crossorigin src="/assets/index-oyaI18XQ.js"></script>
+		<link rel="modulepreload" crossorigin href="/assets/@improbable-eng-BU3rlaSz.js">
+		<link rel="modulepreload" crossorigin href="/assets/react-CxzTU07i.js">
+		<link rel="modulepreload" crossorigin href="/assets/scheduler-CzFDRTuY.js">
+		<link rel="modulepreload" crossorigin href="/assets/react-dom-D0CDEAqu.js">
+		<link rel="modulepreload" crossorigin href="/assets/lodash.mergewith-0oSak3fd.js">
+		<link rel="modulepreload" crossorigin href="/assets/framesync-BLa_7oTh.js">
+		<link rel="modulepreload" crossorigin href="/assets/react-is-8JwjhRSi.js">
+		<link rel="modulepreload" crossorigin href="/assets/hoist-non-react-statics-Buxaj0Kl.js">
+		<link rel="modulepreload" crossorigin href="/assets/@babel-Ds7TnLC8.js">
+		<link rel="modulepreload" crossorigin href="/assets/stylis-YPZU7XtI.js">
+		<link rel="modulepreload" crossorigin href="/assets/@emotion-Ci8Bc0jK.js">
+		<link rel="modulepreload" crossorigin href="/assets/color2k-BSHHkqKj.js">
+		<link rel="modulepreload" crossorigin href="/assets/framer-motion-DN1fNAS_.js">
+		<link rel="modulepreload" crossorigin href="/assets/focus-lock-C3lLyJ0E.js">
+		<link rel="modulepreload" crossorigin href="/assets/use-sidecar-Mnt-C9DP.js">
+		<link rel="modulepreload" crossorigin href="/assets/use-callback-ref-BUZizod5.js">
+		<link rel="modulepreload" crossorigin href="/assets/react-clientside-effect-C1WRooe2.js">
+		<link rel="modulepreload" crossorigin href="/assets/react-focus-lock-CdsTnkdS.js">
+		<link rel="modulepreload" crossorigin href="/assets/get-nonce-C-Z93AgS.js">
+		<link rel="modulepreload" crossorigin href="/assets/react-style-singleton-BMjn4bnO.js">
+		<link rel="modulepreload" crossorigin href="/assets/react-remove-scroll-bar-B8WFODEn.js">
+		<link rel="modulepreload" crossorigin href="/assets/react-remove-scroll-XbdGFyuF.js">
+		<link rel="modulepreload" crossorigin href="/assets/aria-hidden-DQ5UC2Eg.js">
+		<link rel="modulepreload" crossorigin href="/assets/@zag-js-BxxExxl0.js">
+		<link rel="modulepreload" crossorigin href="/assets/@popperjs-BQBsAJpH.js">
+		<link rel="modulepreload" crossorigin href="/assets/react-fast-compare-ZNZLWkFJ.js">
+		<link rel="modulepreload" crossorigin href="/assets/@chakra-ui-F3U2dpjw.js">
 	</head>
 	<body>
+    <div class="spinner">
+      <img src="/images/loading.gif"/>
+    </div>
 		<div id="root"></div>
 		<script src="/iconfont.js"></script>
 	</body>
